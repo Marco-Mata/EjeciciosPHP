@@ -26,12 +26,13 @@
     }
 
     //ciclio while
-     
-    $familia2 = array("Maria","Ana","Jose", "Pedro");
+    $Familia2 = array("Maria","Ana","Jose", "Pedro"); 
 
-    while($familia2<=sizeof($familia2)){
-        echo "<h2>$Familia2</h2>";
-        $familia2++;
+    $i=0;
+
+    while($i<=sizeof($familia2)){
+        echo "<h2>$Familia2[$i] numero de elemento $i</h2>";
+        $familia++;
         echo "<br>";
     }
     
