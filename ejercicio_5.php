@@ -13,7 +13,7 @@
     }
     echo "<p>finaliza el ciclo for</p>";
 
-    for($i=1; $i=>0; $i--){
+    for($i=1; $i>=0; $i--){
         echo "<p>$i</p>";
     }
     echo "<p>finaliza el ciclo for</p>";
