@@ -28,16 +28,15 @@
     //ciclio while
     $Familia2 = array("Maria","Ana","Jose", "Pedro"); 
 
-    $i=0;
+    $z=0;
 
-    while($i<=sizeof($familia2)){
-        echo "<h2>$Familia2[$i] numero de elemento $i</h2>";
-        $familia++;
+    while($z<=sizeof($familia2)){
+        echo "<h2>$Familia2[$z] numero de elemento $z</h2>";
+        $familia2++;
         echo "<br>";
     }
     
-
-
 ?>
+
 </body>
 </hmtl>
