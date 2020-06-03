@@ -9,6 +9,7 @@
         echo "<h1>".$_GET['numero']."</h1>";
 
         if (is_numeric($_GET['numero']) && $_GET['numero'] >=1){
+<<<<<<< HEAD
             if($_GET['numero']%2!=0){
                 echo "<h2>Es un numero primo".$_GET['numero']."</h2>";
             }         
@@ -19,6 +20,17 @@
         else{
             echo "<h2>Ingrese un numero mayor que cero".$_GET['numero']."</h2>";
             }
+=======
+            echo (($_GET['numero']%2)!=0);
+            echo "<h2>Es un numero primo".$_GET['numero']"<\h2>";
+            
+            else{
+                echo "<h2>Es no es numero primo".$_GET['numero']"<\h2>";
+            }
+        }
+        else{
+            echo "<h2>Ingrese un numero mayor que cero".$_GET['numero']"<\h2>";
+>>>>>>> parent of 75eefd8... Update ejercicio_7.php
         }
 
 
