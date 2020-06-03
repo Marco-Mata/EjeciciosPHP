@@ -13,7 +13,7 @@
     }
     echo "<p>finaliza el ciclo for</p>";
 
-    for($i=1; $i>=0; $i--){
+    for($i=1;$i>=0;$i--){
         echo "<p>$i</p>";
     }
     echo "<p>finaliza el ciclo for</p>";
@@ -26,7 +26,7 @@
     }
 
     //ciclio while
-    $Familia2 = array("Maria","Ana","Jose", "Pedro"); 
+    /*$Familia2 = array("Maria","Ana","Jose", "Pedro"); 
 
     $z=0;
 
@@ -35,7 +35,7 @@
         $familia2++;
         echo "<br>";
     }
-    
+    */
 ?>
 
 </body>
